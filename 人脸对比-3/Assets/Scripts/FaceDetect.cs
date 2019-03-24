@@ -51,6 +51,7 @@ public class FaceDetect : MonoBehaviour
     //截取摄像头实时画面
     public int state1;
     public int state2;
+    public int state3;
     public void CaptureScreen()
     {
         //Texture2D screenShot;
@@ -95,6 +96,15 @@ public class FaceDetect : MonoBehaviour
             state2 = 0;
         if (d2 > 35)
             state2 = 1;
+        var b67 = landmarks[67]["y"].ToString();
+        var b70 = landmarks[70]["y"].ToString();
+        var y67 = float.Parse(b67);
+        var y70 = float.Parse(b70);
+        float d3 = y70 - y67;
+        if (d3 < 50)
+            state3 = 0;
+        if (d3 > 50)
+            state3 = 1;
         //Debug.Log("d2:" + d2);
         //Debug.Log("state2" + state2);
         foreach (var lm in landmarks)

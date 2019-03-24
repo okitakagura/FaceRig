@@ -12,7 +12,7 @@ public class blink : MonoBehaviour
     int d1, d2;
     void Start()
     {
-
+        d1 = 1;
         //d2 = script.state2;
     }
 

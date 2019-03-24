@@ -148,7 +148,9 @@ MonoBehaviour:
   screenShot: {fileID: 0}
   portrait: {fileID: 1684682337}
   text: {fileID: 1293115036}
-  state: 0
+  state1: 0
+  state2: 0
+  state3: 0
 --- !u!4 &280391579
 Transform:
   m_ObjectHideFlags: 0
@@ -178,6 +180,27 @@ MonoBehaviour:
   webTex: {fileID: 0}
   deviceName: 
   rawImage: {fileID: 1684682337}
+--- !u!1 &512023200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100110, guid: e0bbd2b507c448046b8418fe2d041b14,
+    type: 3}
+  m_PrefabInstance: {fileID: 1851004250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &512023202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512023200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae80872c4d4e24c2b9e332cb70dce254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  left_bottom_back: -0.11
+  right_up_forward: -0.045
+  Obj1: {fileID: 0}
 --- !u!1 &609934363
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,6 +901,22 @@ PrefabInstance:
     - target: {fileID: 400100, guid: e0bbd2b507c448046b8418fe2d041b14, type: 3}
       propertyPath: m_LocalScale.z
       value: 117.9014
+      objectReference: {fileID: 0}
+    - target: {fileID: 400116, guid: e0bbd2b507c448046b8418fe2d041b14, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 400116, guid: e0bbd2b507c448046b8418fe2d041b14, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 400116, guid: e0bbd2b507c448046b8418fe2d041b14, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100110, guid: e0bbd2b507c448046b8418fe2d041b14, type: 3}
+      propertyPath: m_Name
+      value: Bip01catJaw
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0bbd2b507c448046b8418fe2d041b14, type: 3}

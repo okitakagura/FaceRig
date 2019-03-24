@@ -65,21 +65,22 @@
     <Compile Include="Assets\Scripts\blink.cs" />
     <Compile Include="Assets\Scripts\CallCamera.cs" />
     <Compile Include="Assets\Scripts\FaceDetect.cs" />
+    <Compile Include="Assets\Scripts\mouth.cs" />
     <Compile Include="Assets\Scripts\Rblink.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.6f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -286,28 +287,28 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.6f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="OpenCvSharp">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Assets/Plugins/OpenCvSharp.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Assets/Plugins/OpenCvSharp.dll</HintPath>
     </Reference>
     <Reference Include="AipSdk">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Assets/Plugins/AipSdk.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Assets/Plugins/AipSdk.dll</HintPath>
     </Reference>
     <Reference Include="OpenCvSharp.CPlusPlus">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Assets/Plugins/OpenCvSharp.CPlusPlus.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Assets/Plugins/OpenCvSharp.CPlusPlus.dll</HintPath>
     </Reference>
     <Reference Include="OpenCvSharp.Blob">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Assets/Plugins/OpenCvSharp.Blob.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Assets/Plugins/OpenCvSharp.Blob.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/laihuilin/Downloads/qq/人脸对比-3/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/laihuilin/文稿/我的心里只有学习/facerig/FaceRig/人脸对比-3/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

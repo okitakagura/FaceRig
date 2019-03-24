@@ -12,8 +12,7 @@ public class Rblink : MonoBehaviour
     int d1, d2;
     void Start()
     {
-        transform.localPosition = Vector3.MoveTowards(transform.localPosition, transform.localPosition + new Vector3(-transform.localPosition.x + (-0.25f), 0, 0), speed * Time.deltaTime);
-        //d2 = script.state2;
+        d1 = 1;
     }
 
     // Update is called once per frame
