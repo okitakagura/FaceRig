@@ -9,10 +9,9 @@ public class blink : MonoBehaviour
     float speed = 5;
     // Start is called before the first frame update
     public GameObject Obj1;
-    int d1, d2;
+    int d1;
     void Start()
     {
-        d1 = 1;
         //d2 = script.state2;
     }
 

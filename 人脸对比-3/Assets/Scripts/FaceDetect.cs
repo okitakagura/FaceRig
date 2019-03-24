@@ -29,7 +29,7 @@ public class FaceDetect : MonoBehaviour
     {
         Application.runInBackground = true;
         client = new Face(APIKey, SecretKey);
-        InvokeRepeating("CaptureScreen", 1.0f, 2.0f);
+        InvokeRepeating("CaptureScreen", 1.0f, 0.5f);
 
     }
     public Camera cameras;
